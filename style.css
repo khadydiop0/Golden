@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+  
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav li{
+    list-style: none;
+}
+.navbar-content{
+    display: flex;
+    margin: 2px;
+    font-size: 18px;
+    
+    
+}
+
+#accueil{
+    background-image: url(./bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+ #titre{
+    text-align: center;
+    margin-top: 200px;
+   
+ }
+ 
+ 
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+#apropos img{
+    box-shadow: 0 0 7px;
+   
+}
+#apropos{
+   margin-bottom: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    animation-delay: 0.4;
+   
+}
+
+.button{
+    border: 2px solid;
+    color: #fff;
+    
+}
+/*#menu{
+    background-image: url(./black-1072366_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:150vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}*/
+#Reservation{
+    background-image: url(./remove_img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:70vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+ a button{
+    border-radius: 10%;
+}
+
+.main{
+   margin-left:700px;
+ color: #fff;
+}
+input{
+    background-color: transparent;
+}
+.carousel-inner{
+    height: 50vh;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif
+}
+.second img{
+height: 160px;
+object-fit: cover;
+border-radius: 4px;
+}
+
